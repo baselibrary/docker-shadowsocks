@@ -7,3 +7,5 @@ RUN \
 
 ENTRYPOINT ["/usr/local/bin/ssserver"]
 
+CMD ["-s", "0.0.0.0", "-p", "8388", "-k", "$SS_PASSWORD", "-m", "aes-256-cfb"]
+
